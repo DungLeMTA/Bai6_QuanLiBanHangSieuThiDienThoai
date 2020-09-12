@@ -210,19 +210,6 @@ namespace QuanLyBanHang
             }
         }
 
-        private void btnSPMax_Click(object sender, EventArgs e)
-        {
-            dataGridView1.DataSource = sp.LaySPMax();
-            for (int i = 0; i < dataGridView1.RowCount - 1; i++)
-            {
-                dataGridView1.Rows[i].Cells[0].Value = (i + 1).ToString();
-            }
-            Init();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
+      
     }
 }
