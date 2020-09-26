@@ -19,18 +19,46 @@ namespace QuanLiBanHang
 
         public void btnGiamSL_Click(object sender, EventArgs e)
         {
+               try
+               {
+                    lblDiaCHi.Text = "Địa chỉ";
+                    lblGhichu.Text = "Ghi chú";
+               }
+               catch (Exception)
+               {
+
+                    throw;
+               }
 
         }
 
         public void btnTangSL_Click(object sender, EventArgs e)
         {
 
-        }
+               try
+               {
+
+               }
+               catch (Exception)
+               {
+
+                    throw;
+               }
+          }
 
         public void btnLuu_Click_1(object sender, EventArgs e)
         {
 
-        }
+               try
+               {
+
+               }
+               catch (Exception)
+               {
+
+                    throw;
+               }
+          }
 
 
         public void HuyBo_Click_1(object sender, EventArgs e)
@@ -97,9 +125,44 @@ namespace QuanLiBanHang
 
         public void frmHoaDonBanHang_Load(object sender, EventArgs e)
         {
+               try
+               {
+                    lblDiaCHi.Text = "Địa chỉ";
+                    lblGhichu.Text = "Ghi chú";
+               }
+               catch (Exception)
+               {
 
-        }
-        
-    }
+                    throw;
+               }
+          }
+
+          private void lblSoLuong_Click(object sender, EventArgs e)
+          {
+               try
+               {
+                   
+               }
+               catch (Exception)
+               {
+
+                    throw;
+               }
+          }
+
+          private void lblTenkhachhang_Click(object sender, EventArgs e)
+          {
+               try
+               {
+                    lblDiaCHi.Text = "Địa chỉ";
+                    lblGhichu.Text = "Ghi chú";
+               }
+               catch (Exception)
+               {
+
+                    throw;
+               }
+          }
+     }
 
 }
