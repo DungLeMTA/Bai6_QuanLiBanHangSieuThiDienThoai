@@ -1,0 +1,4 @@
+D:\LapTrinhC#\QuanLiBanHang\obj\Debug\QuanLiBanHang.csprojAssemblyReference.cache
+D:\LapTrinhC#\QuanLiBanHang\obj\Debug\QuanLiBanHang.Properties.Resources.resources
+D:\LapTrinhC#\QuanLiBanHang\obj\Debug\QuanLiBanHang.csproj.GenerateResource.cache
+D:\LapTrinhC#\QuanLiBanHang\obj\Debug\QuanLiBanHang.csproj.CoreCompileInputs.cache
