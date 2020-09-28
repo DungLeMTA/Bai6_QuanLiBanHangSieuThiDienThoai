@@ -168,7 +168,7 @@
             this.btnTK.Text = "Thống kê";
             this.btnTK.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnTK.UseVisualStyleBackColor = true;
-            this.btnTK.Click += new System.EventHandler(this.btnTK_Click);
+         //   this.btnTK.Click += new System.EventHandler(this.btnTK_Click);
             // 
             // dateTimePicker2
             // 

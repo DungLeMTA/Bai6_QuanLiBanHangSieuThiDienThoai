@@ -108,7 +108,7 @@
             this.dgvHoaDon.ReadOnly = true;
             this.dgvHoaDon.Size = new System.Drawing.Size(517, 310);
             this.dgvHoaDon.TabIndex = 1;
-            this.dgvHoaDon.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHoaDon_CellClick);
+          //  this.dgvHoaDon.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHoaDon_CellClick);
             // 
             // Column1
             // 
@@ -215,7 +215,7 @@
             this.btnPrint.TabIndex = 15;
             this.btnPrint.Text = "Print";
             this.btnPrint.UseVisualStyleBackColor = true;
-            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
+        //    this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
             // btnRefresh
             // 
@@ -229,7 +229,7 @@
             this.btnRefresh.TabIndex = 14;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = false;
-            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
+         //   this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // button2
             // 
@@ -244,7 +244,7 @@
             this.button2.TabIndex = 13;
             this.button2.Text = "Thống Kê Trong Nhiều Ngày";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+        //    this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button5
             // 
@@ -259,7 +259,7 @@
             this.button5.TabIndex = 12;
             this.button5.Text = "Thống Kê Trong 1 Ngày";
             this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.btnThongKe_Click);
+       //     this.button5.Click += new System.EventHandler(this.btnThongKe_Click);
             // 
             // lbl1Ngay
             // 
@@ -345,7 +345,7 @@
             this.btnRef.TabIndex = 15;
             this.btnRef.Text = "Refresh";
             this.btnRef.UseVisualStyleBackColor = false;
-            this.btnRef.Click += new System.EventHandler(this.btnRefresh_Click);
+       //     this.btnRef.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // button1
             // 
@@ -360,7 +360,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "Top 10 Hóa Đơn Tổng Tiền Lớn Nhất";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.btnMuaMax_Click);
+       //     this.button1.Click += new System.EventHandler(this.btnMuaMax_Click);
             // 
             // comboBoxThongKeTien
             // 
@@ -375,7 +375,7 @@
             this.comboBoxThongKeTien.Name = "comboBoxThongKeTien";
             this.comboBoxThongKeTien.Size = new System.Drawing.Size(221, 25);
             this.comboBoxThongKeTien.TabIndex = 4;
-            this.comboBoxThongKeTien.SelectedIndexChanged += new System.EventHandler(this.comboBoxThongKeTien_SelectedIndexChanged);
+       //     this.comboBoxThongKeTien.SelectedIndexChanged += new System.EventHandler(this.comboBoxThongKeTien_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -419,7 +419,7 @@
             this.dgvCTHD.ReadOnly = true;
             this.dgvCTHD.Size = new System.Drawing.Size(497, 310);
             this.dgvCTHD.TabIndex = 1;
-            this.dgvCTHD.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCTHD_CellClick);
+          //  this.dgvCTHD.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCTHD_CellClick);
             // 
             // Column7
             // 
@@ -532,7 +532,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hóa Đơn";
-            this.Load += new System.EventHandler(this.frmHoaDonBan_Load);
+        //    this.Load += new System.EventHandler(this.frmHoaDonBan_Load);
             this.panelHoaDon.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvHoaDon)).EndInit();
             this.groupBoxHoaDon.ResumeLayout(false);

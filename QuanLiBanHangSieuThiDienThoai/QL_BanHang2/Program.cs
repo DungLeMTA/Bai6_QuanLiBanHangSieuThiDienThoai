@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,8 +16,8 @@ namespace QuanLiBanHang
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new frmDangNhap());
-            Application.Run(new Main());
+            Application.Run(new frmDangNhap());
+            //Application.Run(new Main());
         }
     }
 }

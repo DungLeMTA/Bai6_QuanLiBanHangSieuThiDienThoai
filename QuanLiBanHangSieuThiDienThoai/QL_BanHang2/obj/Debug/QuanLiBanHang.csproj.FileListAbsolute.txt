@@ -2,3 +2,6 @@ D:\LapTrinhC#\QuanLiBanHang\obj\Debug\QuanLiBanHang.csprojAssemblyReference.cach
 D:\LapTrinhC#\QuanLiBanHang\obj\Debug\QuanLiBanHang.Properties.Resources.resources
 D:\LapTrinhC#\QuanLiBanHang\obj\Debug\QuanLiBanHang.csproj.GenerateResource.cache
 D:\LapTrinhC#\QuanLiBanHang\obj\Debug\QuanLiBanHang.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Bai6_QuanLiBanHangSieuThiDienThoai\QuanLiBanHangSieuThiDienThoai\QL_BanHang2\obj\Debug\QuanLiBanHang.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\Bai6_QuanLiBanHangSieuThiDienThoai\QuanLiBanHangSieuThiDienThoai\QL_BanHang2\obj\Debug\QuanLiBanHang.Properties.Resources.resources
+C:\Users\PC\source\repos\Bai6_QuanLiBanHangSieuThiDienThoai\QuanLiBanHangSieuThiDienThoai\QL_BanHang2\obj\Debug\QuanLiBanHang.csproj.GenerateResource.cache

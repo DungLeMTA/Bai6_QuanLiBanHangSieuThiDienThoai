@@ -1,6 +1,6 @@
 ﻿namespace QuanLiBanHang
 {
-    partial class frmThemHD
+    partial class frmThemHoaDon
     {
         /// <summary>
         /// Required designer variable.
@@ -133,7 +133,7 @@
             this.btnThoat.TabIndex = 48;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
-            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+           // this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // btnTao
             // 

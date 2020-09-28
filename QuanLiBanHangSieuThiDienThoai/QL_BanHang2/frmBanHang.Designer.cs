@@ -208,7 +208,7 @@
             this.dgvCTHD.ReadOnly = true;
             this.dgvCTHD.Size = new System.Drawing.Size(673, 148);
             this.dgvCTHD.TabIndex = 6;
-            this.dgvCTHD.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCTHD_CellClick);
+        //    this.dgvCTHD.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCTHD_CellClick);
             // 
             // dataGridViewTextBoxColumn8
             // 
