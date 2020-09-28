@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLiBanHang
+namespace QuanLiBanHang   
 {
     public partial class frmBanHang : Form
     {
