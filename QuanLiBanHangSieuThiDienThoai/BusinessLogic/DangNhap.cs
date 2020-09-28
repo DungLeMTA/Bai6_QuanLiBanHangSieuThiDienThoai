@@ -13,7 +13,7 @@ namespace BusinessLogic
             string sql = @"select *  from NHANVIEN WHERE TenDN = '" + _Name + "' AND MatKhau =  CONVERT(NVARCHAR(32),HASHBYTES('MD5','" + _Pass + "'),2)";
 
             SqlConnection con = new SqlConnection(KetNoiDB.getconnect());
-            SqlDataAdapter ad = new SqlDataAdapter(sql, con);
+            SqlDataAdapter ad = new SqlDataAdapter(sql,  con);
             DataTable dt = new DataTable();
             ad.Fill(dt);
             if (dt.Rows.Count > 0)
