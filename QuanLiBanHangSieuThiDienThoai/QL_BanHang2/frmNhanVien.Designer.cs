@@ -105,7 +105,7 @@
             this.groupBox1.Size = new System.Drawing.Size(1014, 296);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+           // this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // cbGT
             // 
@@ -131,7 +131,7 @@
             this.btnThoat.TabIndex = 33;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
-            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+          //  this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // txtTenNV
             // 
@@ -164,7 +164,7 @@
             this.btnHuy.TabIndex = 27;
             this.btnHuy.Text = "Hủy";
             this.btnHuy.UseVisualStyleBackColor = true;
-            this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
+          //  this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
             // 
             // btnLuu
             // 
@@ -179,7 +179,7 @@
             this.btnLuu.TabIndex = 25;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.UseVisualStyleBackColor = true;
-            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
+         //   this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // btnXoa
             // 
@@ -194,7 +194,7 @@
             this.btnXoa.TabIndex = 24;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
-            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+         //   this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnSua
             // 
@@ -209,7 +209,7 @@
             this.btnSua.TabIndex = 23;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
-            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
+          //  this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnThem
             // 
@@ -224,7 +224,7 @@
             this.btnThem.TabIndex = 22;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
-            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+          //  this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // txtSDT
             // 
@@ -357,7 +357,7 @@
             this.dgvNhanVien.Name = "dgvNhanVien";
             this.dgvNhanVien.Size = new System.Drawing.Size(1008, 168);
             this.dgvNhanVien.TabIndex = 0;
-            this.dgvNhanVien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvNhanVien_CellClick);
+        //    this.dgvNhanVien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvNhanVien_CellClick);
             // 
             // Column2
             // 
@@ -476,7 +476,7 @@
             "nu"});
             this.tscbGT.Name = "tscbGT";
             this.tscbGT.Size = new System.Drawing.Size(150, 25);
-            this.tscbGT.SelectedIndexChanged += new System.EventHandler(this.tscbGT_SelectedIndexChanged);
+           // this.tscbGT.SelectedIndexChanged += new System.EventHandler(this.tscbGT_SelectedIndexChanged);
             // 
             // toolStripLabel4
             // 
@@ -491,8 +491,8 @@
             this.tstxtDiaChi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tstxtDiaChi.Name = "tstxtDiaChi";
             this.tstxtDiaChi.Size = new System.Drawing.Size(200, 25);
-            this.tstxtDiaChi.TextChanged += new System.EventHandler(this.tstxtDiaChi_TextChanged);
-            // 
+        //    this.tstxtDiaChi.TextChanged += new System.EventHandler(this.tstxtDiaChi_TextChanged);
+        //    // 
             // frmNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -504,7 +504,7 @@
             this.Name = "frmNhanVien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NHÂN VIÊN";
-            this.Load += new System.EventHandler(this.frmNhanVien_Load);
+        //    this.Load += new System.EventHandler(this.frmNhanVien_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

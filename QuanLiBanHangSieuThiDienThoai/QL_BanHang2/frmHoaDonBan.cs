@@ -17,5 +17,20 @@ namespace QuanLiBanHang
         {
             InitializeComponent();
         }
-    }
+
+        private void btnPrint_Click(object sender, EventArgs e)
+        {
+
+        }
+
+          private void btnRefresh_Click(object sender, EventArgs e)
+          {
+
+          }
+
+          private void btnRef_Click(object sender, EventArgs e)
+          {
+
+          }
+     }
 }
