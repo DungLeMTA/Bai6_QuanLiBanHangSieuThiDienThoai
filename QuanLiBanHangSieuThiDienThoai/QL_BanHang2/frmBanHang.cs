@@ -149,6 +149,20 @@ namespace QuanLiBanHang
                     throw;
                }
           }
+
+          private void lblTenkhachhang_Click(object sender, EventArgs e)
+          {
+               try
+               {
+                    lblDiaCHi.Text = "Địa chỉ";
+                    lblGhichu.Text = "Ghi chú";
+               }
+               catch (Exception)
+               {
+
+                    throw;
+               }
+          }
      }
 
 }

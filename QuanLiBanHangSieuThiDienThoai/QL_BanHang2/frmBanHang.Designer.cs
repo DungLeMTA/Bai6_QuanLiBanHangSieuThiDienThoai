@@ -329,6 +329,7 @@
                this.lblTenkhachhang.Size = new System.Drawing.Size(77, 24);
                this.lblTenkhachhang.TabIndex = 6;
                this.lblTenkhachhang.Text = "Tên KH";
+               this.lblTenkhachhang.Click += new System.EventHandler(this.lblTenkhachhang_Click);
                // 
                // lblNgayBan
                // 
