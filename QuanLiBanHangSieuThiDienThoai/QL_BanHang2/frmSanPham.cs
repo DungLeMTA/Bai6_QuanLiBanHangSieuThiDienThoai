@@ -16,5 +16,18 @@ namespace QuanLiBanHang
         {
             InitializeComponent();
         }
+        private void frmSanPham_Load(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            dt = sp.HienThiSanPham();
+            dgvNhanVien.DataSource = dt;
+            KhoaDieuKhien();
+            KhoiTao();
+        }
+        private void btnSua_Click(object sender, EventArgs e)
+        {
+            MoDieuKhien();
+            chon = 2;
+        }
     }
 }
