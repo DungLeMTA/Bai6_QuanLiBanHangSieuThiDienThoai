@@ -27,7 +27,7 @@ namespace QuanLiBanHang
         private void btnSua_Click(object sender, EventArgs e)
         {
             MoDieuKhien();
-            chon = 2;
+            chon = 2 ;
         }
     }
 }
