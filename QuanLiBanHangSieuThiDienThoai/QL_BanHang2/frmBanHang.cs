@@ -125,9 +125,30 @@ namespace QuanLiBanHang
 
         public void frmHoaDonBanHang_Load(object sender, EventArgs e)
         {
+               try
+               {
+                    lblDiaCHi.Text = "Địa chỉ";
+                    lblGhichu.Text = "Ghi chú";
+               }
+               catch (Exception)
+               {
 
-        }
-        
-    }
+                    throw;
+               }
+          }
+
+          private void lblSoLuong_Click(object sender, EventArgs e)
+          {
+               try
+               {
+                   
+               }
+               catch (Exception)
+               {
+
+                    throw;
+               }
+          }
+     }
 
 }

@@ -147,7 +147,7 @@
             this.btnTao.TabIndex = 46;
             this.btnTao.Text = "Tạo";
             this.btnTao.UseVisualStyleBackColor = true;
-            this.btnTao.Click += new System.EventHandler(this.btnThem_Click);
+        //    this.btnTao.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnTaoMoi
             // 
@@ -161,7 +161,7 @@
             this.btnTaoMoi.TabIndex = 45;
             this.btnTaoMoi.Text = "Tạo Phiếu Mới";
             this.btnTaoMoi.UseVisualStyleBackColor = true;
-            this.btnTaoMoi.Click += new System.EventHandler(this.btnTao_Click);
+          //  this.btnTaoMoi.Click += new System.EventHandler(this.btnTao_Click);
             // 
             // btnXoaSP
             // 
@@ -175,7 +175,7 @@
             this.btnXoaSP.TabIndex = 44;
             this.btnXoaSP.Text = "Xóa >>";
             this.btnXoaSP.UseVisualStyleBackColor = true;
-            this.btnXoaSP.Click += new System.EventHandler(this.btnXoaSP_Click);
+        //    this.btnXoaSP.Click += new System.EventHandler(this.btnXoaSP_Click);
             // 
             // btnThemSP
             // 
