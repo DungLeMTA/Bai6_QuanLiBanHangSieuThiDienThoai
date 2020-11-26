@@ -15,6 +15,7 @@ namespace QuanLiBanHang
         public frmHuongDan()
         {
             InitializeComponent();
+            InitializeComponent();
         }
     }
 }
