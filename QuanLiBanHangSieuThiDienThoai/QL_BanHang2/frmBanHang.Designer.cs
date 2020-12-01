@@ -303,7 +303,7 @@
                // 
                // txtTongTienHDB
                // 
-               this.txtTongTienHDB.Location = new System.Drawing.Point(562, 12);
+               this.txtTongTienHDB.Location = new System.Drawing.Point(580, 11);
                this.txtTongTienHDB.Multiline = true;
                this.txtTongTienHDB.Name = "txtTongTienHDB";
                this.txtTongTienHDB.Size = new System.Drawing.Size(108, 25);
@@ -311,7 +311,7 @@
                // 
                // txtNgayBanHDB
                // 
-               this.txtNgayBanHDB.Location = new System.Drawing.Point(346, 12);
+               this.txtNgayBanHDB.Location = new System.Drawing.Point(361, 12);
                this.txtNgayBanHDB.Multiline = true;
                this.txtNgayBanHDB.Name = "txtNgayBanHDB";
                this.txtNgayBanHDB.Size = new System.Drawing.Size(125, 25);
@@ -908,7 +908,7 @@
                this.btnChonSP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
                this.btnChonSP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
                this.btnChonSP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-               this.btnChonSP.Location = new System.Drawing.Point(28, 253);
+               this.btnChonSP.Location = new System.Drawing.Point(16, 254);
                this.btnChonSP.Name = "btnChonSP";
                this.btnChonSP.Size = new System.Drawing.Size(99, 49);
                this.btnChonSP.TabIndex = 3;
@@ -918,7 +918,7 @@
                // 
                // txtSoLuongMua
                // 
-               this.txtSoLuongMua.Location = new System.Drawing.Point(27, 209);
+               this.txtSoLuongMua.Location = new System.Drawing.Point(16, 209);
                this.txtSoLuongMua.Name = "txtSoLuongMua";
                this.txtSoLuongMua.Size = new System.Drawing.Size(100, 29);
                this.txtSoLuongMua.TabIndex = 2;
@@ -929,7 +929,7 @@
                this.lblSoLuong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
                this.lblSoLuong.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
                this.lblSoLuong.ForeColor = System.Drawing.Color.Red;
-               this.lblSoLuong.Location = new System.Drawing.Point(28, 187);
+               this.lblSoLuong.Location = new System.Drawing.Point(16, 183);
                this.lblSoLuong.Name = "lblSoLuong";
                this.lblSoLuong.Size = new System.Drawing.Size(125, 23);
                this.lblSoLuong.TabIndex = 1;
