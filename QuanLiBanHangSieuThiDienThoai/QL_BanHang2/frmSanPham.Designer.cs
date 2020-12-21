@@ -1,4 +1,4 @@
-﻿namespace QuanLiBanHang
+﻿namespace QuanLyBanHang
 {
     partial class frmSanPham
     {
@@ -242,12 +242,13 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Silver;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(822, 73);
+            this.pictureBox1.Location = new System.Drawing.Point(822, 31);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(130, 120);
+            this.pictureBox1.Size = new System.Drawing.Size(130, 162);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 59;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // txtMoTa
             // 
@@ -284,7 +285,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(819, 39);
+            this.label8.Location = new System.Drawing.Point(854, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(62, 19);
             this.label8.TabIndex = 54;
